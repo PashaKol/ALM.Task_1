@@ -2,10 +2,10 @@ package dev.andrylat.creditcard.pashakol;
 
 public class Mortgage_Calculator {
 
-    private double price;// сумма кредита
-    private double downPayment; // аванс
-    private double apr; // процент по кредитуC
-    private double month; // мемяц
+    private double price;
+    private double downPayment;
+    private double apr;
+    private double month;
 
     public Mortgage_Calculator(double price, double downPayment, double apr , double month) {
         this.price = price;
