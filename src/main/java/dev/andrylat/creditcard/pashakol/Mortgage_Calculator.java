@@ -14,12 +14,14 @@ public class Mortgage_Calculator {
         this.month = month;
     }
 
+
+
     public double calculator(){
-        double result1 = (price- downPayment)/month + price * (apr/ 100/12.00);
 
-       return result1;
-
+        double result = (price- downPayment)/month + price * (apr/ 100/12.00);
+       return result;
     }
+
 
     @Override
     public String toString() {
