@@ -44,7 +44,7 @@ public class CardTypeQualifier {
                     System.out.println(PAYMENT + TypeOfCard.MASTERCARD);
 
                 } else if (numberCardMatcher.matches() && number.length() == lengthCard && (string.startsWith(String.valueOf(6011)))
-                        || ((string.startsWith(String.valueOf(65))))) {
+                        || (string.startsWith(String.valueOf(65)))) {
                     System.out.print(CORRECT);
                     System.out.println(PAYMENT + TypeOfCard.DISCOVER);
 
